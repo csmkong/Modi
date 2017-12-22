@@ -1,12 +1,67 @@
 @charset "EUC-KR";
-ul{
-	overflow:auto;
-	list-style-type:none;
-	}
+@media (min-width: 1281px) {
 	
-li.localList{
-	float:left
-	}
-li.ItemName{
-	font-size:small
+		body{
+			background-color: red;
+		}
+  
+		ul{
+			overflow:auto;
+			list-style-type:none;
+			}
+			
+		li{
+			text-align:center
+		}
+		
+		li.localList{
+			float:left
+			}
+			
+		li.ItemName{
+			font-size:small
+		}
+		
+		li.ItemType{
+			display:none;
+		}
+		
+		li.ItemBrand{
+			display:none;
+		}
+		
+		  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  body{
+			background-color: blue;
+		}
+		
+				ul{
+			overflow:auto;
+			list-style-type:none;
+			}
+			
+		li{
+			text-align:center
+		}
+		
+		li.localList{
+			float:left
+			}
+			
+		li.ItemName{
+			font-size:small
+		}
+		
+		li.ItemType{
+			display:none;
+		}
+		
+		li.ItemBrand{
+			display:none;
+		}
+  
 }
