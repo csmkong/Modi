@@ -33,6 +33,6 @@
 		}
 	%>
 	</ul>
-	<input type="button" onclick="javascript:window.location='ItemInsert.jsp'" value="力前 殿废">
+	<input type="button" onclick="javascript:window.location='itemInsert.do'" value="力前 殿废">
 </body>
 </html>

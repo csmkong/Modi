@@ -7,7 +7,7 @@
 <title>제품 추가</title>
 </head>
 <body>
-<form action="<%=request.getContextPath() %>/itemInsert.do" method="post" enctype="multipart/form-data">
+<form action="insertItemCheck.do" method="post" enctype="multipart/form-data">
 	<table>
 	<tr>
 	<td>브랜드</td>

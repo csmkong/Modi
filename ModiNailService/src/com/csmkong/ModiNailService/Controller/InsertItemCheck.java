@@ -69,7 +69,7 @@ public class InsertItemCheck extends HttpServlet {
 			ItemDTO dto = new ItemDTO(brand,item_type,Integer.parseInt(item_code),item_name,file);
 			ItemDAO dao = new ItemDAO();
 			if(dao.insertItem(dto) == ItemDAO.QUERY_FAILED) {
-				response.sendRedirect("");
+				response.sendRedirect("ItemList");
 			}else{
 				response.sendRedirect("ItemList");
 			};
